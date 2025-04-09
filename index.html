@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>김동환 이력서</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      display: flex;
+      height: 100vh;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #fff;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+      overflow-y: auto;
+    }
+
+    .sidebar h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: teal;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin: 10px 0;
+      cursor: pointer;
+      color: #333;
+    }
+
+    .sidebar ul li a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .sidebar ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      flex: 1;
+      padding: 40px;
+      background-color: #fff;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+      font-size: 20px;
+    }
+
+    .highlight {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .url-box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #f0f0f0;
+      font-family: monospace;
+      word-break: break-word;
+    }
+
+    .subinfo {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h3><a href="#basic">기본 정보</a></h3>
+    <ul>
+      <li><a href="#education">학력</a></li>
+      <li><a href="#cert">자격증</a></li>
+      <li><a href="#skills">기술 스택</a></li>
+      <li><a href="#projects">프로젝트 경험</a></li>
+      <li><a href="#etc">기타 역량</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="section" id="basic">
+      <div class="highlight">🧑‍💻 이력서 (Frontend Developer)</div>
+      <p><strong>이름:</strong> 김동환</p>
+      <p><strong>연락처:</strong> 010-7319-1402 / dino07112@m365.dongyang.ac.kr</p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/hongdev" target="_blank">github.com/senakim7</a></p>
+      </div>
+      <img src="profile.jpg" alt="프로필 사진" class="photo" />
+      /div>
+    </div>
+
+    <div class="section" id="education">
+      <h2>🎓 학력</h2>
+      <p><strong>동양미래대학교 컴퓨터소프트웨어공학과 졸업예정</strong></p>
+      <p><strong>경기물류고등학교 국제경영과 졸업</strong></p>
+      <p>전문학사 전공과정 로드맵 전부 이수 (응용 SW 개발, 시스템 엔지니어링, 전공 기초 및 실무 프로젝트 등)</p>
+    </div>
+
+    <div class="section" id="cert">
+      <h2>💼 보유 자격증</h2>
+      <p>정보처리산업기사 (한국산업인력공단)</p>
+    </div>
+
+    <div class="section" id="skills">
+      <h2>💻 기술 스택</h2>
+      <p><strong>Frontend</strong></p>
+      <ul>
+        <li>React: 웹 프론트엔드 실습 프로젝트 수행</li>
+        <li>HTML5 / CSS3 / JavaScript</li>
+        <li>Flutter: 간단한 모바일 앱 구현 경험</li>
+      </ul>
+
+      <p><strong>Backend</strong></p>
+      <ul>
+        <li>Python + Django: 개인 블로그 프로젝트 진행</li>
+        <li>Java / Spring Boot: 백엔드 실무 프로젝트</li>
+        <li>Servlet, DB 연동</li>
+      </ul>
+
+      <p><strong>Database</strong></p>
+      <ul>
+        <li>MySQL / SQL</li>
+        <li>DB 설계 및 프로그래밍 (DA# 사용)</li>
+      </ul>
+
+      <p><strong>기타</strong></p>
+      <ul>
+        <li>Git / Notion / Jira 협업 도구 활용</li>
+        <li>AWS / Linux 시스템 실습</li>
+        <li>Unity 기반 VR/AR 실습 경험</li>
+      </ul>
+    </div>
+
+    <div class="section" id="projects">
+      <h2>📂 프로젝트 경험</h2>
+
+      <p><strong>1. 개인 블로그 개발 (Django + Python)</strong></p>
+      <ul>
+        <li>사용자 인증, 게시판, 댓글, 검색 기능 구현</li>
+        <li>Django Admin을 통한 콘텐츠 관리</li>
+        <li>SQLite 및 MySQL 연동 경험</li>
+      </ul>
+
+      <p><strong>2. 프론트엔드 프로젝트 (React)</strong></p>
+      <ul>
+        <li>SPA 기반 웹페이지 구현</li>
+        <li>상태 관리 및 컴포넌트 구조 설계</li>
+      </ul>
+
+      <p><strong>3. 모바일 앱 기초 개발 (Flutter)</strong></p>
+      <ul>
+        <li>로그인/리스트뷰 UI 및 간단한 기능 구현</li>
+      </ul>
+
+      <p><strong>4. 클라우드 및 IoT 실습</strong></p>
+      <ul>
+        <li>AWS 기반 클라우드 환경 실습</li>
+        <li>RPI / Linux 기반 시스템 프로그래밍</li>
+        <li>Arduino 및 센서 기반 IoT 실습</li>
+      </ul>
+    </div>
+
+    <div class="section" id="etc">
+      <h2>🧠 기타 역량</h2>
+      <ul>
+        <li>팀 프로젝트 및 졸업작품 다수 경험</li>
+        <li>시스템 분석/설계 실습 수행</li>
+        <li>생성형 AI 도구 (ChatGPT, Bard) 활용 경험</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
